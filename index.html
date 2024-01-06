@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+<a-scene background="color:grey">
+    <!--main body-->
+    <a-box position="-0.5 1.4 -3" color="#3A6CC1" rotation="15300 0 0" height="1" width="1"></a-box>
+    <!--boxes inside the main body-->
+    <a-box position="-0.8 1.7 -3" color="#FFFF06" height="0.2" width="0.2"></a-box>
+    <a-box position="-0.5 1.7 -3" color="#FFA303" height="0.2" width="0.2"></a-box>
+    <a-box position="-0.2 1.7 -3" color="#FFFF06" height="0.2" width="0.2"></a-box>
+
+    <a-box position="-0.8 1.4 -3" color="#FF0694" height="0.2" width="0.2"></a-box>
+    <a-box position="-0.5 1.4 -3" color="#C115BC" height="0.2" width="0.2"></a-box>
+    <a-box position="-0.2 1.4 -3" color="#FF0694" height="0.2" width="0.2"></a-box>
+
+    <a-box position="-0.8 1.1 -3" color="#FFFF06" height="0.2" width="0.2"></a-box>
+    <a-box position="-0.5 1.1 -3" color="#FFA303" height="0.2" width="0.2"></a-box>
+    <a-box position="-0.2 1.1 -3" color="#FFFF06" height="0.2" width="0.2"></a-box>
+
+   <!--face-->
+    <a-box position="-5.5 8 -27" color="#3A6CC1" rotation="1985" height="5" width="7"></a-box>
+
+     <!--neck-->
+    <a-cylinder position="-0.69 2.02 -3.4" color="#FFAD07" height="0.09" radius="0.2" ></a-cylinder>
+
+     <!--black par of the eye-->
+     <a-sphere position="-0.78 2.43 -3" color="black" radius="0.03"></a-sphere>
+     <a-sphere position="-0.45 2.43 -3" color="black" radius="0.03"></a-sphere>
+
+    <!--eyeball white-->
+    <a-sphere position="-0.75 3 -5" color="white" radius="0.15"></a-sphere>
+    <a-sphere position="-1.3 3 -5" color="white" radius="0.15"></a-sphere>
+
+    <!--arm-->
+    <a-cylinder position="-1.49 1.62 -3.6" color="#FFAD07" height="0.7" radius="0.06" rotation="140 -100 0"></a-cylinder>
+    <a-cylinder position="0.09 1.62 -3.6" color="#FFAD07" height="0.7" radius="0.06" rotation="140 100 0"></a-cylinder>
+
+    <a-cylinder position="-1.8 1.53 -3.6" color="#FFAD07" height="0.4" radius="0.04" rotation="-140 -100 0"></a-cylinder>
+    <a-cylinder position="0.4 1.5 -3.6" color="#FFAD07" height="0.4" radius="0.05" rotation="140 -100 0"></a-cylinder>
+
+    <!--legs-->
+    <a-cylinder position="-1 0.6 -3.6" color="#FFAD07" height="0.7" radius="0.08" rotation="0"></a-cylinder>
+    <a-cylinder position="-0.4 0.6 -3.6" color="#FFAD07" height="0.7" radius="0.08" rotation="0"></a-cylinder>
+
+    <!--head hemisphere-->
+    <a-sphere position="-7 12 -35" color="#FFAD07" radius="3"></a-sphere>
+
+    <!--antina part sphere-->
+    <a-sphere position="-0.62 2.999 -3" color="#FA8894" radius="0.06"></a-sphere>
+
+    <!--antina part wire-->
+    <a-cylinder position="-0.63 2.88 -3" color="black" height="0.2" radius="0.01"></a-cylinder>
+
+    <!--hands-->
+    <a-octahedron position="-2 1.8 -3.6" color="blue" radius="0.15" roation="0 0 0"></a-octahedron>
+    <a-octahedron position="0.55 1.77 -3.6" color="blue" radius="0.15" roation="0 0 0"></a-octahedron>
+
+    <!--plane-->
+    <a-plane position="0 0 -4" rotation="-90 0 0" width="7" height="2" color="black"></a-plane>
+
+    <!--ring like structure on robot's legs-->
+    <a-ring position="-3 0.6 -3.6" color="white" radius-inner="2"></a-ring>
+
+    <!--smile-->
+    <a-ring position="-0.41 1.99 -2" color="white" radius-outer="0.07" radius-inner="0.045" rotation="90 0 0"></a-ring>
+
+</a-scene>
+</body>
+
+</html>
